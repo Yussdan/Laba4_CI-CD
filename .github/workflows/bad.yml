@@ -24,7 +24,6 @@ jobs:
       - name: Deploy without rollback
         run: |
           echo "Deploying to production..."
-          scp -r . user@server:/var/www/app
 
       - name: Log sensitive info
         run: |
